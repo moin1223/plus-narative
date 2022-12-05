@@ -28,7 +28,7 @@
                 {{ $slot }}
             </main>
         </div> --}}
-    <div class="row">
+    {{-- <div class="row">
         <div class="col-md-2 sidebar">
           <li class="text-light"><a href="">Users</a></li>
           <li><a href="">Pages</a></li>
@@ -78,6 +78,56 @@
                 </div>
             </div>
         </div>
+    </div> --}}
+    <div class="row">
+        <div class=" col-md-2 sidebar" id="side_nav">
+            <div class="header_box">
+                <h1 class="pt-5 ps-5">PlusNarrative</h1>
+            </div>
+            <ul class="list-unstyle pt-4 ps-5">
+                <li><a href="" class="text-decoration-none text-light">Users</a></li>
+                <li><a href="" class="text-decoration-none text-light mt-5">Pages</a></li>
+            </ul>
+
+
+        </div>
+
+        <div class="col-md-10 content">
+            <div class="header d-flex justify-content-between mt-5 mx-3">
+                <h1 class="text-light">Users</h1>
+                <a href="#" class="button">Create New User</a>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <table class="mt-5 table">
+                        <thead>
+                            <tr class="text-light">
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-light">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="text-light">
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </body>
 
